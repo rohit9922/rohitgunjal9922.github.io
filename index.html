@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohit </title>
+    <title>Puneri Katta </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        html {
+            border-radius: 20px;
+            height: 95vh;
+            width: 98vw;
+            flex: auto;
+        }
+
+        body {
+            border: 30px solid blue;
+            border-top: 20px solid rgb(255, 0, 0);
+            font-family: 'Baloo Bhai 2', cursive;
+            background-color: cyan;
+            background: linear-gradient(90deg, #06ecef 0%, #0bfe78 100%);
+        }
+        .container{
+            border: 30px solid yellow;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            margin: 30px 30px;
+            font-size: 50px;
+        }
+
+        .img1 img {
+            margin-top: 100px;
+            margin-left:5%;
+            justify-content: center;
+            /* display: none; */
+            height: 90%;
+            width: 90%;
+            border:10px solid cyan;
+            border-radius: 10px;
+        }
+
+        /* @media (max-width:400px){
+        #img1{
+            display: block;
+        }
+    } */
+        a:hover {
+            color: violet;
+            background-color: blue;
+            border:5px solid tomato;
+            border-radius: 10px;
+        }
+        .vlog{
+            margin-top: 100px;
+            margin: 25%;
+            box-sizing: border-box;
+            justify-content: center;
+            
+        }
+        .h{
+            margin-left: 30%;
+        }
+        .h:hover{
+           
+            border-radius: 20px;
+            color: yellow;
+        }
+        video{
+            border: 5px solid black;
+            border-radius: 100px;
+            height: 70%;
+            width: 80%;
+        }
+    </style>
 </head>
+
 <body>
-   <h1> hello this my website</h1> 
+    <div>
+        <div class="container">
+            <strong>
+                <a href="#">Rohit</a>
+                <a href="#">Soham</a>
+                <a href="Prathmesh.html">Prathmesh</a>
+                <a href="#">Niraj</a>
+                <a href="#">Chaitanaya</a>
+                <a href="#">Apurav</a>
+            </strong>
+        </div>
+        <div class="img1">
+            <img src="group photo.jpg" alt="Image not load Net chek kar bhai">
+        </div>
+    </div>
+    <div class="vlog">
+        <h1 class="h">Our Travling Vlog</h1>
+        <video width="" height="" controls>
+            <source src="video vlog.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+    </div>
 </body>
+
 </html>
